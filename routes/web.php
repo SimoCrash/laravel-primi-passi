@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/ciao', function () {
+Route::get('/', function () {
     return view('home');
 });
+
+

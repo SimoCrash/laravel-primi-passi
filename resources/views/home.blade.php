@@ -1,5 +1,5 @@
 @php
-    $ciao = 'ciao';
+    $ciao = 'Hello World';
 @endphp
 
 <!DOCTYPE html>
@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1>{{$ciao}}</h1>
+    <h1>Hello World</h1>
 </body>
 </html>
